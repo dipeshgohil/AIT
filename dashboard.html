@@ -1,0 +1,301 @@
+<!--A Design by W3layouts
+Author: W3layout
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<head>
+<title>AIT</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Education Evaluation Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<!-- bootstrap-css -->
+<link rel="stylesheet" href="css/bootstrap.css">
+<!-- //bootstrap-css -->
+<!-- Custom CSS -->
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<!-- font CSS -->
+<!-- font-awesome icons -->
+<link rel="stylesheet" href="css/font.css" type="text/css"/>
+<link href="css/font-awesome.css" rel="stylesheet"> 
+<!-- //font-awesome icons -->
+<script src="js/jquery2.0.3.min.js"></script>
+<script src="js/modernizr.js"></script>
+<script src="js/jquery.cookie.js"></script>
+<script src="js/screenfull.js"></script>
+<script>
+	$(function () {
+		$('#supported').text('Supported/allowed: ' + !!screenfull.enabled);
+
+		if (!screenfull.enabled) {
+			return false;
+		}
+
+		$('#toggle').click(function () {
+			screenfull.toggle($('#container')[0]);
+		});	
+	});
+</script>
+<!-- tables -->
+<link rel="stylesheet" type="text/css" href="css/table-style.css" />
+<link rel="stylesheet" type="text/css" href="css/basictable.css" />
+<script type="text/javascript" src="js/jquery.basictable.min.js"></script>
+
+<!-- //tables -->
+<style>
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+</style>
+
+</head>
+<body class="dashboard-page">
+
+	<nav class="main-menu">
+		<ul>
+			<li>
+				<a href="dashboard.html">
+					<i class="fa fa-home nav_icon"></i>
+					<span class="nav-text">
+					Dashboard
+					</span>
+				</a>
+			</li>
+			<li class="has-subnav">
+				<a href="javascript:;">
+				<i class="fa fa-cogs" aria-hidden="true"></i>
+				<span class="nav-text">
+					About
+				</span>
+				<i class="icon-angle-right"></i><i class="icon-angle-down"></i>
+				</a>
+				<ul>
+					<li>
+					<a class="subnav-text" href="about.html">
+					About College
+					</a>
+					</li>
+					<li>
+					<a class="subnav-text" href="campus.html">
+					College Campus
+					</a>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<a href="">
+					<i class="fa fa-list-ul"></i>
+					<span class="nav-text">
+					Academic
+					</span>
+					<i class="icon-angle-right"></i><i class="icon-angle-down"></i>
+				</a>
+
+				<ul>
+					<li>
+					<a class="subnav-text" href="calendar.html">
+					Calendar
+					</a>
+					</li>
+					<li>
+					<a class="subnav-text" href="gallery.html">
+					Gallery
+					</a>
+					</li>
+				</ul>
+			</li>
+		<li>
+				<a href="">
+					<i class="fa fa-list-ul"></i>
+					<span class="nav-text">
+					People
+					</span>
+					<i class="icon-angle-right"></i><i class="icon-angle-down"></i>
+				</a>
+
+				<ul>
+					<li>
+					<a class="subnav-text" href="faculty.html">
+					Faculty
+					</a>
+					</li>
+					<li>
+					<a class="subnav-text" href="staff.html">
+					Staff
+					</a>
+					</li>
+				</ul>
+			</li>
+
+			<li>
+				<a href="contact.html">
+					<i class="fa fa-list-ul"></i>
+					<span class="nav-text">
+					Contact Us
+					</span>
+				</a>
+			</li>
+		</ul>
+	</nav>
+	<section class="wrapper scrollable">
+		<nav class="user-menu">
+			<a href="javascript:;" class="main-menu-access">
+			<i class="icon-proton-logo"></i>
+			<i class="icon-reorder"></i>
+			</a>
+		</nav>
+		<section class="title-bar">
+			<div class="logo">
+				<h1><a href="index.html"><img src="images/logo.png" alt="" /></a></h1>
+			</div>
+			<!--<div class="full-screen">
+				<section class="full-top">
+					<button id="toggle"><i class="fa fa-arrows-alt" aria-hidden="true"></i></button>	
+				</section>
+			</div>-->	
+			
+			<div class="clearfix"> </div>
+		</section>
+
+
+		<div class="main-grid">
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="images/5.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="images/10.png" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="images/3.jpeg" style="width:100%">
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+			  <h2 style="color: blue"> Ahmedabad Institute of Technology</h2>
+			  Ahmedabad Institute of Technology (AIT) was established in 2004 by Ashok Education Landmark Trust with objective to provide youth quality Technical Education, to fulfill the aspirations of the students and their parents. AIT is an ISO certified institute affiliated to Gujarat Technological University (GTU) and approved by All India Council for Technical Education (AICTE, New Delhi), having lush green campus spread over 7 acres of land. This institute with multidisciplinary setting in Engineering and Management is engaged in educating professionals who will be facilitating the transition from design to product and from product to start-up to create multi-ethnic and environmentally sustainable ecosystem. AIT is having association with various professional bodies to foster practical and industry required teaching - learning approach along with modern internal infrastructure inclusive of well-equipped labs, smart classrooms, library, canteens, stationery store, workshop, seminar hall, etc.
+		<br><br>
+		<h3 style="color: blue">Vision</h2>
+		“To produce globally acceptable professionals by providing quality education with excellence & ethics. ”
+<br><br>
+		<h3 style="color: blue">Mission</h2>
+		i) To provide valuable human resources to industry and society.
+		ii) To create ethically and socially responsible professionals.
+		iii) To build across the institute a culture of excellence in teaching & learning.
+		iv) To build inclusive, diverse, and responsible community.
+		<h2></h2>
+		</div>
+
+		<!-- footer -->
+		<div class="footer">
+		Designed & Developed By : Dipesh Gohil
+		</div>
+		<!-- //footer -->
+	</section>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/proton.js"></script>
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+	 
+</body>
+</html>
